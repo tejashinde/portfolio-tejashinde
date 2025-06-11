@@ -45,20 +45,6 @@ export default function Portfolio() {
             <p className="text-xl text-zinc-400 max-w-[600px]">
               I solve real world data problems using Data Science & Applied Statistics
             </p>
-            <div className="flex flex-wrap gap-4 pt-4">
-              <Button className="relative overflow-hidden group bg-gradient-to-r from-purple-500 to-pink-500 border-0">
-                <span className="relative z-10 flex items-center">
-                  View Projects <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </span>
-                <span className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity"></span>
-              </Button>
-              <Button
-                variant="outline"
-                className="border-zinc-700 text-zinc-300 hover:text-white hover:border-zinc-500"
-              >
-                Contact Me
-              </Button>
-            </div>
             <div className="flex gap-4 pt-4">
               <Link href="https://github.com/tejashinde" target="_blank" rel="noopener noreferrer">
                 <Button
@@ -258,7 +244,17 @@ export default function Portfolio() {
             <ProjectCard
               title="Natural Language Processing"
               description="Branch of artificial intelligence that deals with the interaction between computers and humans using the natural language. The ultimate objective of NLP is to read, decipher, understand, and make sense of the human languages in a manner that is valuable. Most NLP techniques rely on machine learning to derive meaning from human languages. From simple NLTK and Spacy Models to complex RNNs and HuggingFace Frameworks, this includes all my experience in those frameworks"
-              tags={["15 Projects", "Python", "NLTK", "Spacy", "Transformers", "RNNs", "HuggingFace", "BERT", "Zero Shot"]}
+              tags={[
+                "15 Projects",
+                "Python",
+                "NLTK",
+                "Spacy",
+                "Transformers",
+                "RNNs",
+                "HuggingFace",
+                "BERT",
+                "Zero Shot",
+              ]}
               image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-lfP4SEiAUr3x90bvcFCUfOk5CLVzm2.png"
               demoUrl="https://example.com"
               repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/tree/main/Natural%20Language%20Processing"
