@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { ArrowRight, Github, Linkedin, Mail } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { ProjectCard } from "@/components/project-card"
@@ -235,7 +235,7 @@ export default function Portfolio() {
               title="Machine Learning"
               description="Neural Network Model as a part of Kaggle Contribution towards real clinical health data and creating a neural network from scratch"
               tags={["19 Projects", "Python", "Neural Networks", "Machine Learning", "Scikit Learn"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-MArt3WbOUIYjKvv1LLdQUFBGNK9KbY.png"
               demoUrl="https://example.com"
               repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/tree/main/Machine%20Learning"
             />
@@ -243,7 +243,7 @@ export default function Portfolio() {
               title="Auto Encoder"
               description="Used Auto Encoders [AE] to solve real world problems. The dimensionality reduction works on the basic working principal of AE when the state is reduced to latent space for representation we extract the latent space as it can represent the data efficiently . Generally we use PCA for it But AE perform better them PCA in almost all the given conditions"
               tags={["5 Projects", "Python", "Scikit Learn", "Tensorflow"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-4dQ1I4QSzqMoNEhkrRmmbOWcfGrMd2.png"
               demoUrl="https://example.com"
               repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/tree/main/AutoEncoders"
             />
@@ -251,15 +251,25 @@ export default function Portfolio() {
               title="Deep Learning"
               description="Deep learning architectures such as deep neural networks, deep belief networks, recurrent neural networks and convolutional neural networks have been applied to fields including computer vision, machine vision, speech recognition, natural language processing, audio recognition, social network filtering, machine translation, bioinformatics, drug design, medical image analysis, material inspection and board game programs, where they have produced results comparable to and in some cases surpassing human expert performance."
               tags={["Python", "Keras", "TensorFlow", "MongoDB"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-X5aiSDrlTqsvyyNBNc9Ckxdw2dZfId.png"
               demoUrl="https://example.com"
               repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/tree/main/Deep%20Learning"
             />
             <ProjectCard
               title="Natural Language Processing"
               description="Branch of artificial intelligence that deals with the interaction between computers and humans using the natural language. The ultimate objective of NLP is to read, decipher, understand, and make sense of the human languages in a manner that is valuable. Most NLP techniques rely on machine learning to derive meaning from human languages. From simple NLTK and Spacy Models to complex RNNs and HuggingFace Frameworks, this includes all my experience in those frameworks"
-              tags={["27 Projects", "Python", "NLTK", "Spacy", "Transformers", "RNNs", "HuggingFace", "BERT", "Zero Shot"]}
-              image="/placeholder.svg?height=400&width=600"
+              tags={[
+                "27 Projects",
+                "Python",
+                "NLTK",
+                "Spacy",
+                "Transformers",
+                "RNNs",
+                "HuggingFace",
+                "BERT",
+                "Zero Shot",
+              ]}
+              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-lfP4SEiAUr3x90bvcFCUfOk5CLVzm2.png"
               demoUrl="https://example.com"
               repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/tree/main/Natural%20Language%20Processing"
             />
@@ -267,7 +277,7 @@ export default function Portfolio() {
               title="Clustering"
               description="Showcase clustring skills using Density Based and Hierarchical Based modelling to determine the intrinsic grouping among the unlabeled data present."
               tags={["5 Projects", "Python", "Affinity Propogation", "DBSCAN", "Spectral Clustering"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-X8j7cxvQ2YoouhtUAR0V8H5yrH5PZ3.png"
               demoUrl="https://example.com"
               repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/tree/main/Clustering"
             />
@@ -275,15 +285,15 @@ export default function Portfolio() {
               title="Reinforcement Learning"
               description="Using AI agents to take actions in an environment in order to maximize the notion of cumulative reward. Reinforcement learning is one of three basic machine learning paradigms, alongside supervised learning and unsupervised learning. Reinforcement learning is the training of machine learning models to make a sequence of decisions. The agent learns to achieve a goal in an uncertain, potentially complex environment. In reinforcement learning, an artificial intelligence faces a game-like situation."
               tags={["3 Projects", "Python", "apriori", "Thomson sampling"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-AJ58Nq4ifUcyqc2Pfmsk1gJTpxt96y.png"
               demoUrl="https://example.com"
               repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/tree/main/Reinforcement%20Learning"
             />
             <ProjectCard
-              title="Recommender System"
+              title="Recommender Systems"
               description="Showcasing capability of predicting the future preference of a set of items for a user, and recommend the top items. Recommender systems are utilized in a variety of areas and are most commonly recognized as playlist generators for video and music services like Netflix, YouTube and Spotify, product recommenders for services such as Amazon, or content recommenders for social media platforms such as Facebook and Twitter."
               tags={["3 Projects", "Python", "Linear Algebra", "Market Basket Analysis"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-rJZu4E1Hozk8fF7Gzr1grO4UMWQa8s.png"
               repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/tree/main/Recommendation%20System"
             />
           </div>
