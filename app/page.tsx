@@ -250,7 +250,7 @@ export default function Portfolio() {
             <ProjectCard
               title="Deep Learning"
               description="Deep learning architectures such as deep neural networks, deep belief networks, recurrent neural networks and convolutional neural networks have been applied to fields including computer vision, machine vision, speech recognition, natural language processing, audio recognition, social network filtering, machine translation, bioinformatics, drug design, medical image analysis, material inspection and board game programs, where they have produced results comparable to and in some cases surpassing human expert performance."
-              tags={["Python", "Keras", "TensorFlow", "MongoDB"]}
+              tags={["27 Projects", "Python", "Keras", "TensorFlow", "MongoDB"]}
               image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-X5aiSDrlTqsvyyNBNc9Ckxdw2dZfId.png"
               demoUrl="https://example.com"
               repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/tree/main/Deep%20Learning"
@@ -258,17 +258,7 @@ export default function Portfolio() {
             <ProjectCard
               title="Natural Language Processing"
               description="Branch of artificial intelligence that deals with the interaction between computers and humans using the natural language. The ultimate objective of NLP is to read, decipher, understand, and make sense of the human languages in a manner that is valuable. Most NLP techniques rely on machine learning to derive meaning from human languages. From simple NLTK and Spacy Models to complex RNNs and HuggingFace Frameworks, this includes all my experience in those frameworks"
-              tags={[
-                "27 Projects",
-                "Python",
-                "NLTK",
-                "Spacy",
-                "Transformers",
-                "RNNs",
-                "HuggingFace",
-                "BERT",
-                "Zero Shot",
-              ]}
+              tags={["15 Projects", "Python", "NLTK", "Spacy", "Transformers", "RNNs", "HuggingFace", "BERT", "Zero Shot"]}
               image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-lfP4SEiAUr3x90bvcFCUfOk5CLVzm2.png"
               demoUrl="https://example.com"
               repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/tree/main/Natural%20Language%20Processing"
