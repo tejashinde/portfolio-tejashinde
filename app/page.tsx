@@ -232,52 +232,59 @@ export default function Portfolio() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
             <ProjectCard
-              title="Medical Cost Predictor using Neural Networks"
+              title="Machine Learning"
               description="Neural Network Model as a part of Kaggle Contribution towards real clinical health data and creating a neural network from scratch"
-              tags={["Python", "Neural Networks", "Deep Learning"]}
+              tags={["19 Projects", "Python", "Neural Networks", "Machine Learning", "Scikit Learn"]}
               image="/placeholder.svg?height=400&width=600"
               demoUrl="https://example.com"
-              repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/blob/main/Deep%20Learning/Medical-Cost-Predictor-using-Neural-Network/Medical%20Cost%20Predictor.ipynb"
+              repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/tree/main/Machine%20Learning"
             />
             <ProjectCard
-              title="Task Management App"
-              description="A collaborative task management application with real-time updates."
-              tags={["React", "Firebase", "Tailwind CSS", "Redux"]}
+              title="Auto Encoder"
+              description="Used Auto Encoders [AE] to solve real world problems. The dimensionality reduction works on the basic working principal of AE when the state is reduced to latent space for representation we extract the latent space as it can represent the data efficiently . Generally we use PCA for it But AE perform better them PCA in almost all the given conditions"
+              tags={["5 Projects", "Python", "Scikit Learn", "Tensorflow"]}
               image="/placeholder.svg?height=400&width=600"
               demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/tree/main/AutoEncoders"
             />
             <ProjectCard
-              title="AI Content Generator"
-              description="An AI-powered content generation tool using OpenAI's GPT models."
-              tags={["Next.js", "OpenAI API", "Node.js", "MongoDB"]}
+              title="Deep Learning"
+              description="Deep learning architectures such as deep neural networks, deep belief networks, recurrent neural networks and convolutional neural networks have been applied to fields including computer vision, machine vision, speech recognition, natural language processing, audio recognition, social network filtering, machine translation, bioinformatics, drug design, medical image analysis, material inspection and board game programs, where they have produced results comparable to and in some cases surpassing human expert performance."
+              tags={["Python", "Keras", "TensorFlow", "MongoDB"]}
               image="/placeholder.svg?height=400&width=600"
               demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/tree/main/Deep%20Learning"
             />
             <ProjectCard
-              title="Fitness Tracker"
-              description="A mobile-first fitness tracking application with data visualization."
-              tags={["React Native", "TypeScript", "D3.js", "Firebase"]}
+              title="Natural Language Processing"
+              description="Branch of artificial intelligence that deals with the interaction between computers and humans using the natural language. The ultimate objective of NLP is to read, decipher, understand, and make sense of the human languages in a manner that is valuable. Most NLP techniques rely on machine learning to derive meaning from human languages. From simple NLTK and Spacy Models to complex RNNs and HuggingFace Frameworks, this includes all my experience in those frameworks"
+              tags={["27 Projects", "Python", "NLTK", "Spacy", "Transformers", "RNNs", "HuggingFace", "BERT", "Zero Shot"]}
               image="/placeholder.svg?height=400&width=600"
               demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/tree/main/Natural%20Language%20Processing"
             />
             <ProjectCard
-              title="Weather Dashboard"
-              description="A beautiful weather dashboard with forecasts and historical data."
-              tags={["React", "Weather API", "Chart.js", "Styled Components"]}
+              title="Clustering"
+              description="Showcase clustring skills using Density Based and Hierarchical Based modelling to determine the intrinsic grouping among the unlabeled data present."
+              tags={["5 Projects", "Python", "Affinity Propogation", "DBSCAN", "Spectral Clustering"]}
               image="/placeholder.svg?height=400&width=600"
               demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/tree/main/Clustering"
             />
             <ProjectCard
-              title="Portfolio Website"
-              description="This portfolio website built with Next.js and Tailwind CSS."
-              tags={["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"]}
+              title="Reinforcement Learning"
+              description="Using AI agents to take actions in an environment in order to maximize the notion of cumulative reward. Reinforcement learning is one of three basic machine learning paradigms, alongside supervised learning and unsupervised learning. Reinforcement learning is the training of machine learning models to make a sequence of decisions. The agent learns to achieve a goal in an uncertain, potentially complex environment. In reinforcement learning, an artificial intelligence faces a game-like situation."
+              tags={["3 Projects", "Python", "apriori", "Thomson sampling"]}
               image="/placeholder.svg?height=400&width=600"
               demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/tree/main/Reinforcement%20Learning"
+            />
+            <ProjectCard
+              title="Recommender System"
+              description="Showcasing capability of predicting the future preference of a set of items for a user, and recommend the top items. Recommender systems are utilized in a variety of areas and are most commonly recognized as playlist generators for video and music services like Netflix, YouTube and Spotify, product recommenders for services such as Amazon, or content recommenders for social media platforms such as Facebook and Twitter."
+              tags={["3 Projects", "Python", "Linear Algebra", "Market Basket Analysis"]}
+              image="/placeholder.svg?height=400&width=600"
+              repoUrl="https://github.com/tejashinde/data-science-academy-portfolio/tree/main/Recommendation%20System"
             />
           </div>
         </div>
@@ -353,7 +360,7 @@ export default function Portfolio() {
             </p>
           </div>
           <div className="flex gap-4">
-            <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/tejashinde" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
@@ -363,7 +370,7 @@ export default function Portfolio() {
                 <span className="sr-only">GitHub</span>
               </Button>
             </Link>
-            <Link href="https://www.linkedin.com/in/shinekyawkyawaung/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/tejasashinde15/" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
@@ -373,17 +380,7 @@ export default function Portfolio() {
                 <span className="sr-only">LinkedIn</span>
               </Button>
             </Link>
-            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <Button
-                variant="ghost"
-                size="icon"
-                className="rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white"
-              >
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </Button>
-            </Link>
-            <Link href="mailto:hello@example.com">
+            <Link href="mailto:tejasashinde15@gmail.com">
               <Button
                 variant="ghost"
                 size="icon"
