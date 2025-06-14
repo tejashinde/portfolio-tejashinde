@@ -39,7 +39,7 @@ export default function Portfolio() {
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
               <span className="block">Hi, I'm</span>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-                Tejas Shinde.
+                Tejas Shinde
               </span>
             </h1>
             <p className="text-xl text-zinc-400 max-w-[600px]">
@@ -107,10 +107,10 @@ export default function Portfolio() {
                 <img src="/images/hero-photo.jpeg" alt="Tejas Shinde" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 w-full p-6">
-                  <div className="flex items-center gap-2">
+                  {/* <div className="flex items-center gap-2">
                     <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>
                     <span className="text-sm font-medium">Available for work</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -118,7 +118,7 @@ export default function Portfolio() {
             <div className="space-y-6">
               <GlassmorphicCard>
                 <p className="text-lg text-zinc-300">
-                  Senior Data Scientist with over 5 years of experience building and deploying end-to-end data science
+                  Senior Data Scientist with over 6 years of experience building and deploying end-to-end data science
                   and machine learning solutions across Energy, Finance, Health and HR domains. Proven expertise in
                   integrating statistical modelling, developing CI/CD pipelines, deploying advanced NLP frameworks, with
                   business intelligence production ready dashboards. Awarded for delivering measurable business
@@ -352,7 +352,7 @@ export default function Portfolio() {
               <span className="text-white">Shinde</span>
             </Link>
             <p className="text-sm text-zinc-500 mt-2">
-              © {new Date().getFullYear()} Tejas Shinde. All rights reserved.
+              © {new Date().getFullYear()} Tejas Shinde. All rights reserved. I've written this website in TypeScript!
             </p>
           </div>
           <div className="flex gap-4">
