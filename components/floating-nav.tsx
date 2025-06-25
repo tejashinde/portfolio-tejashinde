@@ -82,7 +82,7 @@ export function FloatingNav() {
                   {item.name}
                 </Link>
               ))}
-              <a href="https://github.com/tejashinde/resume/blob/main/Tejas%20Shinde%20-%20Senior%20Data%20Scientist%20%5BST%5D.pdf"> 
+              <a href="https://github.com/tejashinde/resume/blob/main/Tejas%20Shinde%20-%20Data%20Scientist%20CV.pdf"> 
                 <Button
                   size="sm"
                   className="ml-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 border-0"
